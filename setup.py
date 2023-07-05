@@ -19,7 +19,7 @@ if __name__ == '__main__':
         name='setuptools-antlr',
         version='0.4.0',
         packages=setuptools.find_packages(),
-        package_data={'setuptools_antlr': ['lib/antlr-4.12.0-complete.jar', 'lib/LICENSE.txt']},
+        package_data={'setuptools_antlr': ['lib/antlr-4.13.0-complete.jar', 'lib/LICENSE.txt']},
         entry_points={
             'distutils.commands': [
                 'antlr = setuptools_antlr.command:AntlrCommand'
